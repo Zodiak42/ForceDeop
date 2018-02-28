@@ -1,2 +1,2 @@
 # ForceDeop
-Protect your server from unwanted operators.
+Protect your server from ForceOp hacks.
