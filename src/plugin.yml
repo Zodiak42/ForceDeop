@@ -1,0 +1,25 @@
+name: ForceDeop
+version: 1.0
+main: fr.zodiak.forcedeop.ForceDeop
+author: Zodiak
+description: Protect your server from unwanted operators.
+commands:
+ forcedeop:
+  description: ForceDeop main command.
+  usage: Usage> /forcedeop [add|remove|reload] [..]
+permissions:
+ forcedeop.*:
+  description: Gives access to all ForceDeop commands.
+  children:
+   forcedeop.add: true
+   forcedeop.remove: true
+   forcedeop.reload: true
+ forcedeop.add:
+  description: Allows a player to become a server operator
+  default: op
+ forcedeop.remove:
+  description: Disallows a player to become a server operator
+  default: op
+ forcedeop.reload:
+  description: Reloads configuration
+  default: op

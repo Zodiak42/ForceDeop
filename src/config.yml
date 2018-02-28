@@ -1,0 +1,3 @@
+# List of players that can be operators (does not mean that they will automatically become operators) :
+CanBeOp:
+- Player
